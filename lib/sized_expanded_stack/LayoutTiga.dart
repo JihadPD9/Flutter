@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Layoutempat extends StatelessWidget {
+class LayoutTiga extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
