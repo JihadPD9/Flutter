@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_jihad_rpl1/container/ContainerLatihan.dart';
 import 'package:flutter_jihad_rpl1/container/ContainerSatu.dart';
 import 'package:flutter_jihad_rpl1/latihan/Latihan4.dart';
+import 'package:flutter_jihad_rpl1/listView/ArticleDetailScreen.dart';
+import 'package:flutter_jihad_rpl1/listView/ArticleListScreen.dart';
+import 'package:flutter_jihad_rpl1/listView/GridProductPage.dart';
 import 'package:flutter_jihad_rpl1/row_column/ColumnWidget.dart';
 import 'package:flutter_jihad_rpl1/row_column/RowColumnWidget.dart';
 import 'package:flutter_jihad_rpl1/latihan/Latihan1.dart';
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Latihan4(),
+        body: GridProductPage(),
       ),
     );
   }

@@ -51,10 +51,7 @@ class Latihan4 extends StatelessWidget {
                     SizedBox(height: 2),
                     Text(
                       "XII RPPL 1",
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: Colors.white70,
-                      ),
+                      style: TextStyle(fontSize: 12, color: Colors.white70),
                     ),
                   ],
                 ),
@@ -85,7 +82,10 @@ class Latihan4 extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                  vertical: 4,
+                ),
                 decoration: BoxDecoration(
                   color: Colors.white24,
                   borderRadius: BorderRadius.circular(12),
@@ -99,7 +99,7 @@ class Latihan4 extends StatelessWidget {
                   ),
                 ),
               ),
-              
+
               const SizedBox(height: 8),
 
               const Text(
@@ -113,29 +113,26 @@ class Latihan4 extends StatelessWidget {
               const SizedBox(height: 4),
               const Text(
                 "Belajar Flutter Bersama Pa Candra",
-                style: TextStyle(
-                  fontSize: 12,
-                  color: Colors.white70,
-                ),
+                style: TextStyle(fontSize: 12, color: Colors.white70),
               ),
               const SizedBox(height: 12),
-              
+
               ElevatedButton.icon(
                 onPressed: () {},
                 iconAlignment: IconAlignment.end,
                 icon: const Icon(Icons.arrow_forward, size: 16),
                 label: const Text(
                   "Mulai Belajar",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 13,
-                  ),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
                 ),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
-                  foregroundColor: primaryColor, 
+                  foregroundColor: primaryColor,
                   elevation: 2,
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 8,
+                  ),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(6),
                   ),
