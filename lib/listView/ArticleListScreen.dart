@@ -101,6 +101,16 @@ class ArticleListScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                Column(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: Text("Go Back"),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),

@@ -5,8 +5,9 @@ class Latihan2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
+    return Scaffold(
+      appBar: AppBar(title: Text('Latihan2')),
+      body: Container(
         width: 250,
         height: 200,
         margin: EdgeInsets.all(10),
