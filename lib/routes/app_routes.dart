@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_jihad_rpl1/listView/ArticleListScreen.dart';
+import 'package:flutter_jihad_rpl1/pages/form_page.dart';
 import 'package:flutter_jihad_rpl1/pages/home_page.dart';
 import 'package:flutter_jihad_rpl1/pages/about_page.dart';
 import 'package:flutter_jihad_rpl1/latihan/Latihan1.dart';
@@ -17,6 +18,7 @@ class AppRoutes {
   static const latihanTiga = '/latihan-tiga';
   static const latihanEmpat = '/latihan-empat';
   static const latihanLima = '/latihan-lima';
+  static const formPage = '/form-page';
 
   static Map<String, WidgetBuilder> routes = {
     home : (context) => HomePage(),
@@ -27,5 +29,6 @@ class AppRoutes {
     latihanTiga: (context) => Latihan3(),
     latihanEmpat: (context) => Latihan4(),
     latihanLima: (context) => Latihan5(),
+    formPage: (context) => FormPage(),
   };
 } 
